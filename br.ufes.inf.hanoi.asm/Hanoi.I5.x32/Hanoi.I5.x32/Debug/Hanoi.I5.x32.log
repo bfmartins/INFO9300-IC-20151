@@ -1,0 +1,15 @@
+﻿Build started 28/05/2015 15:50:52.
+     1>Project "C:\Users\beatriz\Documents\Visual Studio 2013\Projects\br.ufes.inf.INFO9300-IC\br.ufes.inf.hanoi.asm\Hanoi.I5.x32\Hanoi.I5.x32\Hanoi.I5.x32.vcxproj" on node 2 (Rebuild target(s)).
+     1>_MASM:
+         Assembling Hanoi.asm...
+         cmd.exe /C "C:\Users\beatriz\AppData\Local\Temp\tmpa4d8b294b47e4773a5cd1822611a615a.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Hanoi.obj" /Fl"Hanoi.I5.x32.lst" /I "c:\Irvine" /W3 /errorReport:prompt  /TaHanoi.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\beatriz\Documents\Visual Studio 2013\Projects\br.ufes.inf.INFO9300-IC\br.ufes.inf.hanoi.asm\Hanoi.I5.x32\Debug\Hanoi.I5.x32.exe" /INCREMENTAL /NOLOGO /LIBPATH:c:\Irvine irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\beatriz\Documents\Visual Studio 2013\Projects\br.ufes.inf.INFO9300-IC\br.ufes.inf.hanoi.asm\Hanoi.I5.x32\Debug\Hanoi.I5.x32.pdb" /TLBID:1 /ENTRY:"main" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\beatriz\Documents\Visual Studio 2013\Projects\br.ufes.inf.INFO9300-IC\br.ufes.inf.hanoi.asm\Hanoi.I5.x32\Debug\Hanoi.I5.x32.lib" /MACHINE:X86 /SAFESEH:NO Debug\Hanoi.obj
+     1>Hanoi.obj : warning LNK4258: directive '/ENTRY:main@0' not compatible with switch '/ENTRY:main'; ignored
+         Hanoi.I5.x32.vcxproj -> C:\Users\beatriz\Documents\Visual Studio 2013\Projects\br.ufes.inf.INFO9300-IC\br.ufes.inf.hanoi.asm\Hanoi.I5.x32\Debug\Hanoi.I5.x32.exe
+     1>Done Building Project "C:\Users\beatriz\Documents\Visual Studio 2013\Projects\br.ufes.inf.INFO9300-IC\br.ufes.inf.hanoi.asm\Hanoi.I5.x32\Hanoi.I5.x32\Hanoi.I5.x32.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.27
